@@ -1,0 +1,17 @@
+{
+    "title": "Cucumber Compact report for email",
+    "dashboardUrl": "", 
+    "pipelineUrl": "",
+    "pipelineExecNumber": "",
+    "bugsBaseUrl": "",
+    "smtp": {
+	"sendEmail": false,
+	"user": "automation-tester@gmail.com",
+	"password": "somePasw00rd!",
+	"hostUrl": "smtp.gmail.com",
+	"port": "587",
+	"service": "gmail",
+	"from": "automation-tester@gmail.com",
+	"to": "someone1@linq.com, someone2@linq.com"
+    }
+}

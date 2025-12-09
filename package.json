@@ -1,0 +1,30 @@
+{
+    "name": "@cucumber-report-for-email",
+    "version": "1.0.0",
+    "description": "Package to create reduced email reports from cucumber.json results",
+    "main": "index.ts",
+    "directories": {
+        "test": "resources",
+        "src": "src"
+    },
+    "scripts": {
+        "report": "ts-node -O '{\"target\":\"ES2018\"}' email_report.ts"
+    },
+    "keywords": [],
+    "author": "Rodrigo Garcia",
+    "license": "MIT",
+    "dependencies": {
+        "@cucumber/cucumber": "9.6.0",
+        "@types/nodemailer": "^6.4.17"
+    },
+    "devDependencies": {
+        "@types/ejs": "^3.1.5",
+        "@types/fs-extra": "^11.0.4",
+        "@types/luxon": "^3.7.1",
+        "ejs": "^3.1.10",
+        "fs-extra": "^11.3.2",
+        "luxon": "^3.7.2",
+        "nodemailer": "^7.0.11",
+        "ts-node": "^10.9.2"
+    }
+}
