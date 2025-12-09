@@ -2,7 +2,7 @@
 
 From a `cucumber-report.json` file, generates an HTML report that can be sent by email to report results in a compact manner reporting the **failed** test cases.
 
-- Uses report file `resources/pipeline_email_results.ejs` as template to send the report (this can be customized)
+- Uses report file `resources/pipeline_email_results.ejs` as **ejs** template to send the report (this can be customized)
 - Generates HTML `email_report.html`
 - Can send email using SMTP credentials located at `configs.local.json` (create a file from `configs.example.json` example:
 - Searches for special tags (if they exists) in every test scenario and adds to the report table:

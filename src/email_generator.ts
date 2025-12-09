@@ -1,8 +1,3 @@
-/**
- * Copyright (c). EMS LINQ, INC.
- * All Rights Reserved.
- */
-
 import { DateTime } from 'luxon';
 import ejs from 'ejs';
 import fs from 'fs';
