@@ -15,8 +15,7 @@ From a `cucumber-report.json` file, generates an HTML report that can be sent by
 In order to use this in a service it is needed:
 
 1. Install dependencies with `npm install`
-2. Create a `configs.local.json` file using contents of `configs.example.json`.
-3. Copy a `cucumber-report.json` file from a previous execution of cucumber test cases to this directory.
+2. Create a `configs.local.json` file using contents of `configs.json`.
 
 ```json
   // example commented (all this variables can be overriden in pipeline variables)
@@ -38,6 +37,9 @@ In order to use this in a service it is needed:
     }
   }
 ```
+
+3. Copy a `cucumber-report.json` file from a previous execution of cucumber test cases to this directory.
+
 4. run `npm run report`. This will generate a `email_report.html` file, and if configured in configs.local.json file will send an email using the smpt credentials.
 
 LICENSE: MIT
